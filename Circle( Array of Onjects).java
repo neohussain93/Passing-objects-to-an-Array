@@ -26,7 +26,7 @@ public class Circle {
     
     public static void main(String[] args) { //  to run code
         
-         //------------------------ PASSING OBJECTS TO ARRAYS --------------------------------
+         //------------------------ ARRAYS OF OBJECTS --------------------------------
          Circle [] cc = new Circle[3]; // ClassName [] ArrayName = new ClassName[lenngth];
          for(int i=0; i<cc.length; i++){
              cc[i] = new Circle(); // instantiating the Circles
